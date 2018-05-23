@@ -1,6 +1,7 @@
 # Legato
 Legato is a *language spec* that provides a simple and extensible syntax.
 
+
 ## Goals
 - Simple, readable, writable
 - Extensible modular elements
@@ -12,11 +13,10 @@ Think of XML as a general syntax and HTML as a specific implementation for web.
 XML consists of `<tag></tag>` but it has no concept of `<a>` or `<img>`.
 (While this is [not correct](https://stackoverflow.com/questions/5558502/is-html5-valid-xml), you get the idea)
 
-- [] legato-richtext: a language module that provides common components for legato-liberal and legato-linear.
+- [ ] legato-richtext: a language module that provides common components for legato-liberal and legato-linear.
   includes title, image, text styling, link.
-- [] legato-liberal: an implementation for writing a general text *article* with basic media data (image/video).
-- [] legato-linear: an implementation for making *presentation*. It is a new way of presenting. has no concept of slides.
-- [] legato-libral-html: transpile legato-libral to html.
+- [ ] legato-liberal: an implementation for writing a general text *article* with basic media data (image/video).
+- [ ] legato-linear: an implementation for making *presentation*. It is a new way of presenting. has no concept of slides.
 
 
 ## Motivation
